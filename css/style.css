@@ -1,0 +1,346 @@
+body{font-family: 'Montserrat', sans-serif;}
+
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 700px;
+} 
+
+nav{ 
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 120px;
+    z-index: 9999999;
+} li a{
+    position: relative;
+    float: left;
+    left: 27%;
+    top: -20px;
+    padding: 80px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    color: #EBEBEB;
+    letter-spacing: 1px;
+} li a img{
+    margin-top: -10px;
+} #logo{
+    margin-left: -58%;
+    margin-top: 50px;
+    animation-name: netflix;
+    animation-duration: 4s;
+    animation-iteration-count: 3;  
+} @keyframes netflix{
+    from {margin-left: -75%;}
+    to{margin-left: -58%;}
+}
+
+#intro{
+    position: relative;
+    letter-spacing: 1.4px;
+    word-spacing: 2px;
+    padding-top: 230px;
+    padding-left: 12%;  
+    font-weight: bold;
+} #intro p{
+    color: #ED2517;
+    text-transform: uppercase;
+    font-size: .8em;
+} #intro h1{
+    color: #FFFFFF;
+    font-size: 2em;
+    width: 30%;
+    line-height: 50px;
+   padding-top: 20px;
+} #intro #introtekst{
+    color: #FFFFFF;
+    padding-top: 20px;
+    width: 26%;
+    line-height: 25px;
+    font-weight: normal;
+    text-transform: none;
+    font-size: .9em;
+} #intro a{
+    position: absolute;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1em;
+    top: 575px;
+    left: 13.2%;
+} #intro  #red{
+    position: relative;
+    background-color: #ED2517;
+    width: 10%;
+    height: 49px;
+    top: 50px;
+    left: 0%;
+} #intro #stranger{
+    position: relative;
+    height: 575px;
+    margin-top: -430.9px;
+    margin-left: 39.5%;
+    opacity: .6;
+} #intro #trailer{
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 65.5%;
+    color: #FFFFFF;
+} .bs-example a #play{
+    position: absolute;
+    top: -200px;
+   left: 825px;
+}.modal-content iframe{
+    margin: 0 auto;
+    display: block;
+    margin-top: -500px;
+    position: relative;
+}
+.bs-example{
+    margin: 20px;
+}
+
+#main{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8em;
+    letter-spacing: 1.4px;
+    margin-left: 40%;
+    margin-top: 80px;
+    font-weight: bold;
+} #main p{
+    text-transform: uppercase;
+    color: #ED2517;
+} #main h2{
+    width: 60%;
+    font-size: 3em;
+    line-height: 50px;
+    margin-top: 25px;
+    margin-left: -12%;
+    text-align: center;
+} #main #video-txt{
+    width: 60%;
+    font-size: .9em;
+    font-weight: normal;
+    text-transform: none;
+    text-align: center;
+    margin-left: -11%;
+    margin-top: 40px;
+    color: #4B4B4B;
+} #main #red{
+    background-color: #ED2517;
+    position: relative;
+    width: 13%;
+    height: 49px;
+    top: 25px;
+    left: 10%;
+} #main a{
+    position: absolute;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1em;
+    top: 1480px;
+    left: 47.5%;
+
+}
+
+#video1{
+    position: relative;
+    width: 80%;
+    height: 405px;
+    margin-left: -20%;
+    margin-top: 40px;
+    z-index: 99999;
+}
+#video2{
+    position: absolute;
+    width: 40%;
+    height: 301px;
+    margin-left: -30%;
+    margin-top: -350px;  
+    z-index: 0;
+}
+#video3{
+    position: absolute;
+    width: 40%;
+    height: 301px;
+    margin-left: 15%;
+    margin-top: -350px;  
+    z-index: 0;
+   
+}#main a .play-vid{
+   margin-top: -375px;
+   margin-left: 50px;
+   position: absolute;
+    z-index: 999999;
+} #main a #vid2{
+   margin-left: -330px;
+   z-index: 99999;
+} #main a #vid3{
+    margin-left: 375px;
+    z-index: 99999;
+} #forward{
+    margin-top: -360px;
+   margin-left: 170px;
+   position: absolute;
+    z-index: 999999;
+}
+
+footer{
+    position: relative;
+    top: 100px;
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+}
+
+#choose{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    margin-left: 27%;
+    margin-top: 100px;
+    letter-spacing: 1.4px;
+} #choose h3{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+.tab {
+    overflow: hidden;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 200px;
+    width: 30%;
+    left: 25%;
+    padding-left: 200px;
+    padding-right: 100px;
+    text-align: center;
+}.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}.tab button:hover {
+    background-color: #ddd;
+}.tab button.active {
+    background-color: #ccc;
+}.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #707070;
+    border-top: none;
+    color: white;
+    position: relative;
+    top: 200px;
+    width: 49.2%;
+    left: 25%;
+    height: 600px;
+}.caption{
+      color: white;
+     top: 50px;
+     left:  25%;
+      position: relative;
+      line-height: 50px;
+} .red{
+      color: red;
+      top: -250px;
+      position: relative;
+      left:  57%;
+      line-height: 50px;
+} #check1{
+      margin-top: 20px;
+} #check2{
+      top: -200px;
+      left: 53%;
+} #red{
+    position: relative;
+    background-color: #ED2517;
+    width: 25%;
+    height: 49px;
+    top: -125px;
+    left: 37%;
+}a {
+    color: white;
+    position: relative;
+    top: -160px;
+    left: 40.5%;
+    text-transform: uppercase;
+    text-decoration: none;
+} #download{
+    margin-top: -75px;
+    margin-left: 33%;
+    text-transform: uppercase;
+    font-size: .8em;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    li a{margin-left: 3%;}
+    #logo{left: 70%; position: absolute;}
+    #intro a{margin-top: 75px;}
+    #stranger{width: 60%; height: 200px;}
+    #main a{margin-top: 50px;}
+    .bs-example a #play{margin-left: -150px;}
+}
+@media screen and (max-width: 1000px){
+    li a{padding: 20px; margin-top: 60px;}
+   #intro p, #intro h1, #intro #introtekst{margin-top: -30px;}
+   #intro a{margin-top: 60px; font-size: .75em;}
+   .bs-example a #play{margin-left: -300px;}
+   #main a{font-size: .85em; }
+}
+@media screen and (max-width: 1000px){
+    #intro a{margin-top: 75px;}
+    #intro #red{width: 12%; height: 40px;}
+    .bs-example a #play{margin-left: -425px;}
+   #main a #vid2{left: 125px;top: 40px;}
+   #main a #vid3{left: -200px; top: 50px;}
+    #main a #vid1, #main a #forward{top: 50px; left: -40px;}
+    #main a{margin-top: 115px; font-size: 1.2em;}
+    #main #red{width: 25%;}
+}
+@media screen and (max-width: 650px){
+    a #login{ width: 50%;}
+    nav{top: 2px;}
+    #intro{margin-top:-70px;}
+    #intro h1, #intro #introtekst{width: 45%;}
+    #intro a{margin-top: 25px;}
+    #intro #red{width: 15%;}
+    #main h2{width: 100%; margin-left: -25%;}
+    #main p{margin-left: -17%;}
+    #main a #vid1, #main a #forward{margin-top: -550px;}
+    #main a #vid2{top: -120px; left: 150px;}
+    #main a #vid3{top: -140px; left: -220px;}
+    #main a{margin-top: 10px;}
+    .tab{margin-left: -15%; width: 40%;}
+}
+@media screen and (max-width: 550px){
+    .bs-example a #play{margin-left: -550px; height: 75px;}
+    #intro a{margin-top: 50px;}
+    #main a #vid1, #main a #forward{margin-top: -400px;height: 65px;}
+    #main a #vid2{margin-top: -200px; left: 170px; height: 65px;}
+    #main a #vid3{margin-top: -180px; left: -260px;height: 65px;}
+    #main a{margin-top: 70px; font-size: .9em;}
+    .tab{margin-left: -15%; width: 30%;}
+}
+@media screen and (max-width: 414px){
+    li a{font-size: .7em;}
+    #intro a{margin-top: 75px; font-size: .9em;}
+    #intro #red{width: 25%;}
+    #intro h1, #intro #introtekst{width: 50%;}
+    #main #red{width: 40%; margin-left: -10%;}
+    #main a{margin-top: 217px; font-size: 1em; margin-left: -5%;}
+    .tab{margin-left: -20%; width:20%; top: 250px;}
+    #choose h3{margin-left: -10%;}
+}

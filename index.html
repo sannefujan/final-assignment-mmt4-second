@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://vjs.zencdn.net/7.7.6/video-js.css" rel="stylesheet">
+    <title>Netflix Home</title>
+</head>
+
+<body>
+<header>
+<nav class= "clear">
+    <ul>
+    <li> 
+    <img id="logo" src="img/netflix@2x.png" alt="netflix logo">
+    <a  href="#">About</a>
+    <a  href="#">Pricing</a>
+    <a  href="#">Contact</a>
+    <a href="#"><img id="login" src="img/login@2x.png" alt="login"></a>
+    </li>
+    </ul>
+</nav> 
+
+<div id="intro">
+<p>a netflix original</p>
+<h1>Something strange is happening in Hawkins </h1>
+<p id="introtekst">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum.</p>
+<div id="red"></div>
+<a href="#">try free</a>
+<img id="stranger" src="img/stranger@2x.jpeg" alt="stranger">
+<p id="trailer">watch trailer</p>
+
+<div class="bs-example">
+<a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><img id="play" src="img/play@2x.png" alt="play button"></a>
+
+
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+                <iframe id="cartoonVideo" width="500" height="600" src="https://player.vimeo.com/external/430989151.hd.mp4?s=40324f07887b28f30553bde3cf9abcdb2412e44a&profile_id=175" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+</div>
+</header>
+
+<main>
+    <div id="main">
+        <p>stop doing stuff, start watching</p>
+        <h2>200+ of the best shows, waiting to be watched</h2>
+
+        <a href="#"><img class="play-vid" id="vid1" src="img/playbtn@2x.png" alt="play"></a>
+        <a href="#"><img class="play-vid" id="vid2" src="img/playbtn@2x.png" alt="play"></a>
+        <a href="#"><img class="play-vid" id="vid3" src="img/playbtn@2x.png" alt="play"></a>
+        <a href="#"><img id="forward" src="img/forwardbtn@2x.png" alt="forwardbtn"></a>
+        <video controls id="video1" class="video-js" data-setup='{ "controls": false, "autoplay": ""}'>
+            <source src="https://player.vimeo.com/external/430989151.hd.mp4?s=40324f07887b28f30553bde3cf9abcdb2412e44a&profile_id=175" type="video/mp4"/>
+            <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that</p>
+        </video>
+
+        <video controls id="video2" class="video-js" data-setup='{ "controls": false, "autoplay": ""}'>
+            <source src="https://player.vimeo.com/external/388930643.sd.mp4?s=b334e2ad1dbed90dc9db981af1147be8473fed86&profile_id=165" type="video/mp4"/>
+            <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that</p>
+        </video>
+
+        <video controls id="video3" class="video-js" data-setup='{ "controls": false, "autoplay": ""}'>
+            <source src="https://player.vimeo.com/external/388899699.sd.mp4?s=dc3252e64962e144c77d78cb3196f8c35f78b8fc&profile_id=164" type="video/mp4"/>
+            <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that</p>
+        </video>
+
+
+        <p id="video-txt">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum.</p>
+        <div id="red"></div>
+        <a href="#">try free</a>
+    </div>
+</main>
+<footer>
+    <div id="choose">
+        <h3>Choose the plan that's right for you</h3>
+    </div>
+
+<div class="tab">
+<button class="tablinks" onclick="openCity(event, 'Basic')">Basic</button>
+<button class="tablinks" onclick="openCity(event, 'Standard')">Standard</button>
+<button class="tablinks" onclick="openCity(event, 'Premium')">Premium</button>
+</div>
+
+<div id="Basic" class="tabcontent">
+    <p class="caption">Monthly price</p>
+    <p class="caption">Video quality</p>
+    <p class="caption">Resolution</p>
+    <p class="caption">Screens</p>
+    <p class="caption">Unlimited films and TV</p>
+    <p class="caption">Cancel at any time</p>
+
+    <p class="red">€7,99</p>
+    <p class="red">Good</p>
+    <p class="red">1K</p>
+    <p class="red">1</p>
+    <img class="red" id="check1" src="img/check@2x.png" alt="check">
+    <img class="red" id="check2" src="img/check@2x.png" alt="check">
+
+    <div id="red"></div>
+    <a href="#">Pick this plan</a>
+
+    <p id="download">Downgrade or upgrade at any time</p>
+  </div>
+  
+  <div id="Standard" class="tabcontent">
+    <p class="caption">Monthly price</p>
+    <p class="caption">Video quality</p>
+    <p class="caption">Resolution</p>
+    <p class="caption">Screens</p>
+    <p class="caption">Unlimited films and TV</p>
+    <p class="caption">Cancel at any time</p>
+
+    <p class="red">€9,99</p>
+    <p class="red">Better</p>
+    <p class="red">3K</p>
+    <p class="red">3</p>
+    <img class="red" id="check1"src="img/check@2x.png" alt="check">
+    <img class="red" id="check2" src="img/check@2x.png" alt="check">
+
+    <div id="red"></div>
+    <a href="#">Pick this plan</a>
+
+    <p id="download">Downgrade or upgrade at any time</p>
+  </div>
+  
+  <div id="Premium" class="tabcontent">
+    <p class="caption">Monthly price</p>
+    <p class="caption">Video quality</p>
+    <p class="caption">Resolution</p>
+    <p class="caption">Screens</p>
+    <p class="caption">Unlimited films and TV</p>
+    <p class="caption">Cancel at any time</p>
+
+    <p class="red">€13,99</p>
+    <p class="red">Best</p>
+    <p class="red">4K+HDR</p>
+    <p class="red">4</p>
+    <img class="red" id="check1" src="img/check@2x.png" alt="check">
+    <img class="red" id="check2" src="img/check@2x.png" alt="check">
+
+    <div id="red"></div>
+    <a href="#">Pick this plan</a>
+
+    <p id="download">Downgrade or upgrade at any time</p>
+</div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://vjs.zencdn.net/7.7.6/video.js"></script> 
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
